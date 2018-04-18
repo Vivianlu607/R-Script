@@ -75,3 +75,6 @@ x <- deal_line_final %>%
 x2 <- deal_line_final %>%
   filter(store_name == "[0828]胜和店") %>%
   show_query()
+
+data(cars)
+plot(cars)
